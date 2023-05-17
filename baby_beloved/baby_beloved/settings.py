@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure---*o-*&!h-1j&jmkw66y6k)89qs4cu00!y4np45^i1958*#kvw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','8000-thedknight-pp5-ecom-baby-lie80x5p7t.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['localhost',
+                 '8000-thedknight-pp5-ecom-baby-lie80x5p7t.us2.codeanyapp.com']
 
 
 # Application definition
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
@@ -67,7 +69,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
