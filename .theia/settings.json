@@ -1,0 +1,8 @@
+{
+  "djlint.formatAttributeTemplateTags": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.format.indentHandlebars": true,
+  "html.format.templating": true
+}
