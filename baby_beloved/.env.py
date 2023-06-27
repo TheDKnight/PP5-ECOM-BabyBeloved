@@ -1,3 +1,0 @@
-STRIPE_PUBLIC_KEY = os.environ.get(pk_test_51Myir9IAah2bBjJV7vuzDpnWnsOVPOOX9SntxZjUlrgQtfexgc2KemGHtLXOzwnmPshjqo140dP940fq0iDIJGyM00ulsf301R)
-STRIPE_SECRET_KEY = os.environ.get(sk_test_51Myir9IAah2bBjJVeB7PvWHwFkng96Ip4jUc3l9jifP4vMNDffZGZZpEgnQNkIJdFpnJGLVIM8MkitxDgwf0JsBa00hUlolst9)
-STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET')
