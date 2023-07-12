@@ -1,1 +1,0 @@
-web: gunicorn baby_beloved.wsgi:application --chdir baby_beloved  
