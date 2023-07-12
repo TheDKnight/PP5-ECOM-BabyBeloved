@@ -31,10 +31,10 @@ SECRET_KEY = env('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True 
 
 ALLOWED_HOSTS = ['localhost',
-                 '8000-thedknight-pp5ecombabyb-kijfy8iz9xx.ws-eu100.gitpod.io', '8001-thedknight-pp5-ecom-baby-lie80x5p7t.us2.codeanyapp.com','pp5-ecom-final-bb6504664877.herokuapp.com']
+                 '8000-thedknight-pp5-ecom-baby-tzl2dbov7s.us2.codeanyapp.com', '8001-thedknight-pp5-ecom-baby-lie80x5p7t.us2.codeanyapp.com','pp5-ecom-final-bb6504664877.herokuapp.com','8000-thedknight-pp5-ecom-baby-tzl2dbov7s.us2.codeanyapp.com/']
 
 
 # Application definition
