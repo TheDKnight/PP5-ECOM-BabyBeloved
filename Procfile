@@ -1,1 +1,1 @@
-web: gunicorn baby_beloved.wsgi:application --chdir baby_beloved  
+web: gunicorn --chdir baby_beloved baby_beloved.wsgi:application   
