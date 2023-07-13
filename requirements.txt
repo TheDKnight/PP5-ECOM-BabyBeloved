@@ -11,7 +11,7 @@ django-environ==0.10.0
 django-storages==1.13.2
 environ==1.0
 gunicorn==20.1.0
-heroku==0.1.4
+heroku3==5.2.1
 jmespath==1.0.1
 oauthlib==3.2.2
 Pillow==9.5.0
