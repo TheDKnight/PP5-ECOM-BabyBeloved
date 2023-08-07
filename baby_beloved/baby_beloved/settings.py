@@ -34,7 +34,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = True 
 
 ALLOWED_HOSTS = ['localhost',
-                 '8000-thedknight-pp5-ecom-baby-tzl2dbov7s.us2.codeanyapp.com', '8001-thedknight-pp5-ecom-baby-lie80x5p7t.us2.codeanyapp.com','pp5-ecom-final-bb6504664877.herokuapp.com','8000-thedknight-pp5-ecom-baby-tzl2dbov7s.us2.codeanyapp.com/']
+                 '8000-thedknight-pp5-ecom-baby-nm97ays0jb.us2.codeanyapp.com', 'pp5-ecom-final-bb6504664877.herokuapp.com', '8000-thedknight-pp5-ecom-baby-tzl2dbov7s.us2.codeanyapp.com/']
 
 
 # Application definition
@@ -219,7 +219,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
-STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY')
-STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY')
+STRIPE_PUBLIC_KEY = env('STRIPE_PUBLIC_KEY')
+STRIPE_SECRET_KEY = env('STRIPE_SECRET_KEY')
 STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET')
 DEFAULT_FROM_EMAIL = 'boutiqueado@example.com'
