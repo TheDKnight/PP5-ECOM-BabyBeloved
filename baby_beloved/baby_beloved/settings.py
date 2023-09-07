@@ -34,7 +34,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = True 
 
 ALLOWED_HOSTS = ['localhost',
-                 '8000-thedknight-pp5-ecom-baby-nm97ays0jb.us2.codeanyapp.com', 'pp5-ecom-final-bb6504664877.herokuapp.com']
+                 '8000-thedknight-pp5-ecom-baby-w9mo6iewdf.us2.codeanyapp.com', 'pp5-ecom-final-bb6504664877.herokuapp.com']
 
 
 # Application definition
